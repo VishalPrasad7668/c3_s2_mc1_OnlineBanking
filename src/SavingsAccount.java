@@ -15,7 +15,6 @@ public class SavingsAccount {
     }
 
     public long generateAccountNumber() {
-        long branchCode = 4907L;
         Random random = new Random();
         accountNumber = random.nextLong(4907000000000L, 4907500000000L);
         return accountNumber;
